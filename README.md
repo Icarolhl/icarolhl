@@ -1,16 +1,34 @@
-## Hi there 👋
+<h2 align="center">Ícaro Lima</h2>
 
-<!--
-**Icarolhl/icarolhl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Desenvolvedor Full Stack especializado na construção de aplicações web completas e escaláveis, com expertise sólida em Django no backend, TypeScript no frontend e SQL. Desenvolvo soluções end-to-end que integram interfaces modernas e performáticas com APIs robustas, entregando sistemas confiáveis, fáceis de manter e com excelente experiência do usuário.
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h3 align="center">Stack Principal</h3>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=django,py,react,nodejs,typescript,js,html,css,docker,mysql,git" />
+</p>
+
+---
+
+<h3 align="center">Status do Github</h3>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=icarolhl&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+    </td>
+    <td align="center">
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=icarolhl&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=icarolhl&theme=tokyonight&hide_border=true" />
+</div>
