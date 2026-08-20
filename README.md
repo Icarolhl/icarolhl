@@ -19,10 +19,10 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=icarolhl&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+      <img src="./profile/stats.svg" alt="GitHub Stats" />
     </td>
     <td align="center">
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=icarolhl&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+      <img src="./profile/top-langs.svg" alt="Top Languages" />
     </td>
   </tr>
 </table>
