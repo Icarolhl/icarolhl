@@ -14,21 +14,12 @@
 
 ---
 
-<h3 align="center">Status do Github</h3>
+<h3 align="center">Atividade no GitHub</h3>
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="./profile/stats.svg" alt="GitHub Stats" />
-    </td>
-    <td align="center">
-      <img src="./profile/top-langs.svg" alt="Top Languages" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img width="500" src="./profile/top-langs.svg" alt="Linguagens mais utilizadas" />
+</p>
 
-<br/>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=icarolhl&theme=tokyonight&hide_border=true" />
-</div>
+<p align="center">
+  <img width="500" src="https://streak-stats.demolab.com?user=icarolhl&theme=tokyonight&hide_border=true" alt="Sequência de contribuições no GitHub" />
+</p>

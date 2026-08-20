@@ -1,4 +1,4 @@
-name: Update README stats
+name: Update README languages
 
 on:
   push:
@@ -15,11 +15,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-readme-stats
+  group: update-readme-languages
   cancel-in-progress: true
 
 jobs:
-  update-cards:
+  update-card:
     runs-on: ubuntu-latest
 
     steps:
@@ -36,30 +36,21 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
-      - name: Generate stats card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: "username=icarolhl&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"
-          path: profile/stats.svg
-          token: ${{ secrets.README_STATS_TOKEN }}
-          fail_on_error: true
-
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: "username=icarolhl&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
+          options: "username=icarolhl&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=500&locale=pt-br&custom_title=Linguagens%20mais%20utilizadas"
           path: profile/top-langs.svg
           token: ${{ secrets.README_STATS_TOKEN }}
           fail_on_error: true
 
-      - name: Commit updated cards
+      - name: Commit updated card
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          git add profile/top-langs.svg
 
           if git diff --cached --quiet; then
             exit 0
